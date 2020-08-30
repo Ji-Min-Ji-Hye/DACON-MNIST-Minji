@@ -13,7 +13,7 @@
 ## 기록
 ### 0828~0830: efficientnet
 - 분류 모델 중 가장 성능이 좋음
-- 5번 pooling을 거치므로 최소 32x32의 이미지 필요
-- 3채널 이미지 필요 
---> **따라서 내가 가진 mnist(변형)은 28*28*1이라 변형이 필요함**
- - https://github.com/fxnnxc/VGG16-RESNET-MNIST/blob/master/src/test.py
+- 5번 pooling을 거치므로 최소 32x32의 이미지 필요, 3채널 이미지 필요 --> **따라서 내가 가진 mnist(변형)은 28*28*1이라 변형이 필요함**
+- 변형 코드 참고
+  - https://github.com/fxnnxc/VGG16-RESNET-MNIST/blob/master/src/test.py (사이즈 증가, 3차원으로) --> 여기서 3차원은 (3)=>(3,3,3) 이런식임  
+  
