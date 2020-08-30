@@ -4,3 +4,8 @@
 - dropout의 적절한 조절
 - loss랑 relu도바꿔보기
 - imagedatagenerator 어떤식으로?
+
+---
+## 기록
+### 0828~0830: efficientnet
+- 분류 모델 중 가장 성
