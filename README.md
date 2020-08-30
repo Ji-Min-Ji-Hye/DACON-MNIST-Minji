@@ -20,3 +20,9 @@
   - https://github.com/fxnnxc/VGG16-RESNET-MNIST/blob/master/src/test.py (사이즈 증가, 3차원으로)  
     --> 여기서 3차원은 (3)=>(3,3,3) 이런식임  
   
+  - https://github.com/Jsimluken/pyTraining/blob/b3b6d22a7c6f2c42355657e55548f224fe3196f6/keras/Chick/EfficientNet.ipynb (3차원)
+    --> 여기서 3차원은 (3)=>(1,1,1)  이런식임  
+<br>
+
+- 하지만 280*280으로 시도한 결과, train 정확도가 0.86 또는 0.84대에서 멈춤
+  - weight를 None/imagenet 둘다 시도해도 특정 지점에서 멈춤  
