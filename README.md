@@ -20,7 +20,7 @@
   - https://github.com/fxnnxc/VGG16-RESNET-MNIST/blob/master/src/test.py (사이즈 증가, 3차원으로)  
     --> 여기서 3차원은 (3)=>(3,3,3) 이런식임  
   
-  - https://github.com/Jsimluken/pyTraining/blob/b3b6d22a7c6f2c42355657e55548f224fe3196f6/keras/Chick/EfficientNet.ipynb (3차원)
+  - https://github.com/Jsimluken/pyTraining/blob/b3b6d22a7c6f2c42355657e55548f224fe3196f6/keras/Chick/EfficientNet.ipynb (3차원)  
     --> 여기서 3차원은 (3)=>(1,1,1)  이런식임  
 <br>
 
