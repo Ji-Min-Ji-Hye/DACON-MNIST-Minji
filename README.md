@@ -17,5 +17,6 @@
   --> **따라서 내가 가진 mnist(변형)은 28x28x1이라 변형이 필요함** [*참고](https://github.com/qubvel/efficientnet/issues/129)
 - 32*32로 만들기 위해 zeropadding을 한 결과 train 정확도가 0.1대에서 멈춤
 - 변형 코드 참고
-  - https://github.com/fxnnxc/VGG16-RESNET-MNIST/blob/master/src/test.py (사이즈 증가, 3차원으로) --> 여기서 3차원은 (3)=>(3,3,3) 이런식임  
+  - https://github.com/fxnnxc/VGG16-RESNET-MNIST/blob/master/src/test.py (사이즈 증가, 3차원으로)  
+    --> 여기서 3차원은 (3)=>(3,3,3) 이런식임  
   
