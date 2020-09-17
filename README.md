@@ -1,5 +1,10 @@
 # DACON-MNIST
 ## DACON - 글자에 숨겨진 숫자 이미지 예측 (MNIST 변형)
+---
+
+repo 수정시 [클릭](https://github.com/Ji-Min-Ji-Hye/DACON-MNIST-minji/compare/master...minji-o-j:master)
+
+---
 - 일단 l2썼을때 잘되는건 맞는듯
 - dropout의 적절한 조절
   - layer가 3층인 경우, 오히려 dropout 0.5를 했을 때 0.2보다 성능 저하 발생
@@ -26,7 +31,7 @@
 
 - 하지만 280*280으로 시도한 결과, train 정확도가 0.86 또는 0.84대에서 멈춤
   - weight를 None/imagenet 둘다 시도해도 특정 지점에서 멈춤  
-    - 근데 imagenet의 가중치(학습된 가중치) 사용 불가라고한다.. 기존dataset 불러오는 코드부터 있어야한다고 
+    - 근데 imagenet의 가중치(학습된 가중치) 사용 불가라고한다.. 기존dataset 불러오는 코드부터 있어야한다고 한다.   
 
 ---
 ### 0830
