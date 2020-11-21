@@ -2,9 +2,16 @@
 ## DACON - 글자에 숨겨진 숫자 이미지 예측 (MNIST 변형)[　](https://github.com/Ji-Min-Ji-Hye/DACON-MNIST-minji/compare/master...minji-o-j:master)  
 ---
 ## 대회 소개
-https://dacon.io/competitions/official/235626/overview/
+https://dacon.io/competitions/official/235626/overview/  
+<br>
 
+![image](https://user-images.githubusercontent.com/45448731/99884981-1e88a700-2c75-11eb-9c87-ad7db9a3f57e.png)
 
+---
+## 순위
+![image](https://user-images.githubusercontent.com/45448731/99885013-63acd900-2c75-11eb-9fea-80ae9f2be05f.png)
+![image](https://user-images.githubusercontent.com/45448731/99885024-71faf500-2c75-11eb-9d7d-f5c0317ccddc.png)
+![image](https://user-images.githubusercontent.com/45448731/99885044-9525a480-2c75-11eb-8789-a7f21cec0fc5.png)
 
 ---
 ## 기록
