@@ -1,16 +1,10 @@
 # DACON-MNIST
 ## DACON - 글자에 숨겨진 숫자 이미지 예측 (MNIST 변형)[　](https://github.com/Ji-Min-Ji-Hye/DACON-MNIST-minji/compare/master...minji-o-j:master)  
 ---
+## 대회 소개
+https://dacon.io/competitions/official/235626/overview/
 
----
-- 일단 l2썼을때 잘되는건 맞는듯
-- dropout의 적절한 조절
-  - layer가 3층인 경우, 오히려 dropout 0.5를 했을 때 0.2보다 성능 저하 발생
-- loss랑 relu도바꿔보기
-  - crossentropy일 때보다 SGD일때 성능 저하 발생
-- imagedatagenerator 어떤식으로?
-  - mnist는 회전이 안좋다는 평이 많음
-  - 밝기 조절 했을 때 모든 숫자를 1로 예측하는 문제 발생
+
 
 ---
 ## 기록
@@ -40,3 +34,16 @@
 ### 0905
 - 전에 padding을 했을 때 정확도가 매우 낮았음 -->특징점이 부족한 것 아닐까 생각
 - 다른 github에서 이진화한 데이터로 해보았을 때 매우 낮다고 한 것 발견 --> 이것도 원래 데이터에는 0~255까지 있는것을 0, 255 2개로만으로 바꾸어서 특징이 줄어든것이 아닐까 라는 생각이 들었음
+
+---
+## 메모
+- 일단 l2썼을때 잘되는건 맞는듯
+- dropout의 적절한 조절
+  - layer가 3층인 경우, 오히려 dropout 0.5를 했을 때 0.2보다 성능 저하 발생
+- loss랑 relu도바꿔보기
+  - crossentropy일 때보다 SGD일때 성능 저하 발생
+- imagedatagenerator 어떤식으로?
+  - mnist는 회전이 안좋다는 평이 많음
+  - 밝기 조절 했을 때 모든 숫자를 1로 예측하는 문제 발생
+
+---
