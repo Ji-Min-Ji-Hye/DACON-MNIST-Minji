@@ -1,8 +1,6 @@
 # DACON-MNIST
-## DACON - 글자에 숨겨진 숫자 이미지 예측 (MNIST 변형)
+## DACON - 글자에 숨겨진 숫자 이미지 예측 (MNIST 변형)[　](https://github.com/Ji-Min-Ji-Hye/DACON-MNIST-minji/compare/master...minji-o-j:master)  
 ---
-
-repo 수정시 [클릭](https://github.com/Ji-Min-Ji-Hye/DACON-MNIST-minji/compare/master...minji-o-j:master)
 
 ---
 - 일단 l2썼을때 잘되는건 맞는듯
